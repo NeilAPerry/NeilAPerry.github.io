@@ -1,4 +1,4 @@
-<div class="paper">
+<!-- <div class="paper">
     <p><strong><a href={{ .Get "paperUrl" }}>{{ .Get "title" }}</a></strong></p>
     <p><strong>Authors:</strong>
         {{ $authors := split (.Get "authors") "," }}
@@ -12,4 +12,31 @@
         <summary>Summary</summary>
         <p>{{ .Get "description" }}</p>
     </details>
+</div> -->
+
+
+
+<div class="paper-container">
+    <!-- Image section -->
+    <div class="paper-image-container">
+        <img src="{{ .Get "image" }}" alt="Paper Image">
+    </div>
+
+    <!-- Title and author section -->
+    <div class="paper-content">
+        <p><strong><a href="{{ .Get "paperUrl" }}">{{ .Get "title" }}</a></strong></p>
+        <p><strong>Authors:</strong>
+            {{ $authors := split (.Get "authors") "," }}
+            {{ $websites := split (.Get "websites") "," }}
+            {{ range $index, $author := $authors }}
+                {{ if $index }}, {{ end }}
+                <a href="{{ index $websites $index }}">{{ $author }}</a>
+            {{ end }}
+        </p>
+    </div>
 </div>
+
+<details>
+    <summary>Summary</summary>
+    <p>{{ .Get "description" }}</p>
+</details>

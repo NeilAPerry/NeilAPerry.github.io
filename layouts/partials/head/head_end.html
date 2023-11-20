@@ -1,1 +1,47 @@
-<style>.search{display:none}</style>
+<style>
+    .search {
+        display: none
+    }
+</style>
+<style>
+    /* Mobile screen adjustments */
+    @media screen and (max-width: 768px) {
+        .paper-container {
+            flex-direction: column;
+            align-items: center; /* Center items vertically on mobile */
+        }
+        .paper-image-container {
+            width: 100%; /* Allow the image container to take full width */
+            display: flex;
+            justify-content: center; /* Center the image horizontally */
+            margin-bottom: 10px; /* Space between image and text */
+        }
+        .paper-image-container img {
+            width: 100%; /* Larger width on mobile, adjust as needed */
+            height: auto; /* Maintain aspect ratio */
+            max-width: 400px; /* Maximum width to prevent overly large images */
+        }
+        .paper-content {
+            width: 100%; /* Full width for text content on mobile */
+            text-align: center; /* Center the text */
+        }
+    }
+    
+    /* Desktop styling */
+    .paper-container {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px; /* Space between papers */
+    }
+    
+    .paper-image-container {
+        flex-shrink: 0;
+        margin-right: 10px;
+    }
+    
+    .paper-image-container img {
+        width: 250px; /* Fixed width on desktop */
+        height: 250px; /* Fixed height */
+        object-fit: cover; /* Adjust the fit of images */
+    }
+    </style>
