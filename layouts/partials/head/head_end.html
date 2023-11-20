@@ -1,47 +1,95 @@
+<!-- hide search bar -->
 <style>
     .search {
         display: none
     }
 </style>
+<!-- research images for mobile and desktop display -->
 <style>
     /* Mobile screen adjustments */
     @media screen and (max-width: 768px) {
         .paper-container {
             flex-direction: column;
-            align-items: center; /* Center items vertically on mobile */
+            align-items: center;
+            /* Center items vertically on mobile */
         }
+
         .paper-image-container {
-            width: 100%; /* Allow the image container to take full width */
+            width: 100%;
+            /* Allow the image container to take full width */
             display: flex;
-            justify-content: center; /* Center the image horizontally */
-            margin-bottom: 10px; /* Space between image and text */
+            justify-content: center;
+            /* Center the image horizontally */
+            margin-bottom: 10px;
+            /* Space between image and text */
         }
+
         .paper-image-container img {
-            width: 100%; /* Larger width on mobile, adjust as needed */
-            height: auto; /* Maintain aspect ratio */
-            max-width: 400px; /* Maximum width to prevent overly large images */
+            width: 100%;
+            /* Larger width on mobile, adjust as needed */
+            height: auto;
+            /* Maintain aspect ratio */
+            max-width: 400px;
+            /* Maximum width to prevent overly large images */
         }
+
         .paper-content {
-            width: 100%; /* Full width for text content on mobile */
-            text-align: center; /* Center the text */
+            width: 100%;
+            /* Full width for text content on mobile */
+            text-align: center;
+            /* Center the text */
         }
     }
-    
+
     /* Desktop styling */
     .paper-container {
         display: flex;
         align-items: flex-start;
-        margin-bottom: 20px; /* Space between papers */
+        margin-bottom: 20px;
+        /* Space between papers */
     }
-    
+
     .paper-image-container {
         flex-shrink: 0;
         margin-right: 10px;
     }
-    
+
     .paper-image-container img {
-        width: 250px; /* Fixed width on desktop */
-        height: 250px; /* Fixed height */
-        object-fit: cover; /* Adjust the fit of images */
+        width: 250px;
+        /* Fixed width on desktop */
+        height: 250px;
+        /* Fixed height */
+        object-fit: cover;
+        /* Adjust the fit of images */
+    }
+</style>
+
+<!-- profile picture in mobile menu -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var mobileMenu = document.querySelector('.menu--vertical');
+        if (mobileMenu) {
+            var profilePic = document.createElement('img');
+            profilePic.src = '/images/headshot2_cropped.webp'; // Update with the correct path
+            profilePic.alt = 'Profile Picture';
+            profilePic.classList.add('mobile-profile-pic');
+            mobileMenu.insertBefore(profilePic, mobileMenu.firstChild); // Inserts the image at the top of the menu
+        }
+    });
+</script>
+<style>
+    /* Hide the profile picture in the desktop menu */
+    .menu--horizontal .mobile-profile-pic {
+        display: none;
+    }
+    
+    /* Style for the mobile profile picture */
+    .mobile-profile-pic {
+        display: block; /* Show by default, will be hidden in desktop menu by above rule */
+        width: 50%; /* Adjust the size as needed */
+        height: auto; /* Adjust the size as needed */
+        margin: 10px auto; /* Center the image with margin */
+        border-radius: 50%; /* Optional: makes the image circular */
     }
     </style>
+    
