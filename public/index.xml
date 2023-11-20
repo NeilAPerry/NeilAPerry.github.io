@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Neil Perry</title>
+    <link>http://neilaperry.com/</link>
+    <description>Recent content on Neil Perry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://neilaperry.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://neilaperry.com/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://neilaperry.com/research/</guid>
+      <description>Here you can find my research projects grouped by topic area. This site is currently under construction and some projects are listed with missing papers. These will be updated as they become public.
+Democracy (Anonymous Comm. &amp;amp; Censorship)#  Strong Anonymity for Mesh Messaging
+Authors: Neil Perry , Bruce Spang , Saba Eskandarian , Dan Boneh  Summary Messaging systems built on mesh networks consisting of smartphones communicating over Bluetooth have been used by protesters around the world after governments have disrupted Internet connectivity.</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>http://neilaperry.com/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://neilaperry.com/</guid>
+      <description>I am a PhD candidate at Stanford University, advised by Professor Dan Boneh. My research lies at the intersection of cryptography, democracy, and national security, with a focus on developing innovative solutions for complex global challenges. My commitment to enhancing free speech and promoting democracy is reflected in my development of an anonymous communication system, designed to support protesters in regimes with limited internet access, and in my creation of new steganographic techniques.</description>
+    </item>
+    
+    <item>
+      <title>Teaching &amp; Talks</title>
+      <link>http://neilaperry.com/talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://neilaperry.com/talks/</guid>
+      <description>Here you can find classes I&amp;rsquo;ve taught and talks I&amp;rsquo;ve given. This site is currently under construction and some talks are listed with missing slides. These will be updated as the site is finished.
+Teaching#  CS 355: Topics in Cryptography Website: https://crypto.stanford.edu/cs355/22sp/
+Stanford students have been behind some of the most important developments in modern cryptography, including Diffie-Hellman key exchange, Merkle trees, ElGamal encryption, and fully homomorphic encryption. With this history in mind, CS355 will cover many of the foundational techniques that you will need to get started with crypto research and to go on to solve the field’s great open problems.</description>
+    </item>
+    
+  </channel>
+</rss>
