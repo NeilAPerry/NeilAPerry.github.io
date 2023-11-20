@@ -14,10 +14,10 @@ Here you can find classes I've taught and talks I've given. This site is current
 
 
 ## Talks
-{{< talk title="Do Programmers Write More Insecure Code with AI Assistants? (Short Version)" location="Stanford Security Forum (Palo Alto 2023), AISoLA (Crete 2023)" slidesUrl="/" >}}
+{{< talk title="Do Programmers Write More Insecure Code with AI Assistants? (Short Version)" location="Stanford Security Forum (Palo Alto 2023), AISoLA (Crete 2023)" slidesUrl="/presentations/AISoLA_23.pdf" >}}
 
-{{< talk title="Do Programmers Write More Insecure Code with AI Assistants? (Long Version)" location="Berkeley 2023" slidesUrl="/" >}}
+{{< talk title="Do Programmers Write More Insecure Code with AI Assistants? (Long Version)" location="Berkeley 2023" slidesUrl="/presentations/Berkeley_codex_presentation.pdf" >}}
 
-{{< talk title="Applying Cryptography to Arms Control" location="Clear Ventures Keynote (Palo Alto 2023)" slidesUrl="/" >}}
+{{< talk title="Applying Cryptography to Arms Control" location="Clear Ventures Keynote (Palo Alto 2023)" slidesUrl="/presentations/Applying_Cryptography_to_Arms_Control.pdf" >}}
 
-{{< talk title="Proof-of-Concept Demonstration of a New Methodology for Secure Nuclear Warhead Data Exchanges to Support a Verifiable Nuclear Warhead Arms Control Treaty" location="Washington DC 2022" slidesUrl="/" >}}
+{{< talk title="Proof-of-Concept Demonstration of a New Methodology for Secure Nuclear Warhead Data Exchanges to Support a Verifiable Nuclear Warhead Arms Control Treaty" location="Washington DC 2022" slidesUrl="DC_demo.pdf" >}}

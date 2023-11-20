@@ -1,3 +1,8 @@
+---
+title: "Research"
+draft: false
+---
+
 Here you can find my research projects grouped by topic area. This site is currently under construction and some projects are listed with missing papers. These will be updated as they become public.
 
 #### Democracy (Anonymous Comm. & Censorship)
