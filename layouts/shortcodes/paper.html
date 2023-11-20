@@ -1,0 +1,15 @@
+<div class="paper">
+    <p><strong><a href={{ .Get "paperUrl" }}>{{ .Get "title" }}</a></strong></p>
+    <p><strong>Authors:</strong>
+        {{ $authors := split (.Get "authors") "," }}
+        {{ $websites := split (.Get "websites") "," }}
+        {{ range $index, $author := $authors }}
+            {{ if $index }}, {{ end }}
+            <a href="{{ index $websites $index }}">{{ $author }}</a>
+        {{ end }}
+    </p>
+    <details>
+        <summary>Summary</summary>
+        <p>{{ .Get "description" }}</p>
+    </details>
+</div>

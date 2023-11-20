@@ -1,0 +1,200 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "basics": {
+      "name": "Neil Perry",
+      "label": "Researcher",
+      "image": "/images/headshot2_cropped.webp",
+      "email": "naperry@stanford.edu",
+      "summary": "I am currently a PhD candidate at Stanford University and I received a BA in Computer Science, Economics, Mathematics, and Liberal Arts from the University of Wisconsin-Madison. My research interests lie in applying cryptography to societal problems. Additionally, I advise politicians and members of the US government on issues related to tech policy and national security.",
+      "location": {
+        "city": "Milwaukee/Palo Alto"
+      },
+      "profiles": [
+        {
+          "network": "GitHub",
+          "username": "NeilAPerry",
+          "url": "https://github.com/NeilAPerry/"
+        },
+        {
+          "network": "LinkedIn",
+          "username": "Neil Perry",
+          "url": "https://www.linkedin.com/in/neil-perry-1312b3138/"
+        }
+      ]
+    },
+    "work": [
+        {
+            "name": "The Hoover Institution, Stanford University",
+            "location": "Stanford, California, United States",
+            "position": "SETR Fellow",
+            "description": "",
+            "summary": "Helped develop a comprehensive report for Congress and the White House, focusing on the implications of emerging technologies and their influence on policy.",
+            "startDate": "2023-03",
+            "url": "https://www.hoover.org/"
+        },
+        {
+            "name": "Stanford University",
+            "location": "Stanford, California",
+            "position": "PhD Candidate",
+            "description": "",
+            "summary": "",
+            "startDate": "2019-09"
+        },
+        {
+            "name": "Wisconsin State Assembly",
+            "location": "Madison, Wisconsin, United States",
+            "position": "Legislative Intern",
+            "description": "",
+            "summary": "Intern for Rep. Vruwink. Drafted legislation, reviewed and improved operational security practices, worked with constituents on various issues, and attended public hearings and caucus meetings.",
+            "startDate": "2021-05",
+            "endDate": "2021-08"
+        },
+        {
+            "name": "Netflix",
+            "location": "California, United States",
+            "position": "Open Connect (FTL) Research Intern",
+            "description": "",
+            "summary": "Intern on the FTL team, working with the Open Connect and Video Streaming Algorithms teams on the effects and causes of latency",
+            "startDate": "2020-06",
+            "endDate": "2020-09"
+        },
+        {
+            "name": "University of Wisconsin-Madison",
+            "location": "Madison, Wisconsin Area",
+            "position": "Undergraduate Research Assistant",
+            "description": "",
+            "summary": "Conduct research for the Computer Science department at UW-Madison in the field of blockchain networks. Research how storage faults impact the behavior of nodes on the Ethereum network. Publication in preparation.",
+            "startDate": "2018-06",
+            "endDate": "2019-08"
+        },
+        {
+            "name": "Cosmic Chimp LLC",
+            "location": "Madison, Wisconsin, United States",
+            "position": "CEO & Cofounder",
+            "description": "",
+            "summary": "Cofounded Cosmic Chimp LLC, a freelance website company. Responsible for designing backend architectures and payment processing. Latest project: www.mariefritzperryart.com",
+            "startDate": "2018-06",
+            "endDate": "2018-12"
+        },
+        {
+            "name": "VN Capital Management",
+            "location": "Madison, Wisconsin Area",
+            "position": "Research Intern",
+            "description": "",
+            "summary": "Perform economic analysis of grain markets throughout the Northern U.S. and Canada; engineer solutions to public image problems of companies that the hedge fund invested in; present findings to the board of Ceres Global Ag. and meet with Senior Executives to discuss findings. Develop models to predict the prices of grain elevators. Analyze and improve website design and content for marketing purposes of companies within the portfolio.",
+            "startDate": "2018-06",
+            "endDate": "2018-09"
+        },
+        {
+            "name": "Facebook Marketing Campaign Strategist and Consultant",
+            "location": "Verona, Wisconsin",
+            "position": "Founder and President",
+            "description": "",
+            "summary": "Consulted on advertising campaigns for several entrepreneurs advertising products on Facebook including educational materials, fine-art, and physical products sold on Amazon.com. Produced an 83-page guide to Facebook marketing and campaign strategies, designed and taught online marketing funnels, and handled web development and website/funnel maintenance for my own marketing.",
+            "startDate": "2016-05",
+            "endDate": "2017-06"
+        },
+        {
+            "name": "Spaghettable",
+            "location": "Madison, Wisconsin Area",
+            "position": "Founder",
+            "description": "",
+            "summary": "",
+            "startDate": "2014-08",
+            "endDate": "2016-09"
+        }    
+    ],
+    "volunteer": [
+      {
+        "organization": "CoderDojo",
+        "position": "Teacher",
+        "url": "http://coderdojo.example.com/",
+        "startDate": "2012-01-01",
+        "endDate": "2013-01-01",
+        "summary": "Global movement of free coding clubs for young people.",
+        "highlights": ["Awarded 'Teacher of the Month'"]
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Oklahoma",
+        "url": "https://www.ou.edu/",
+        "area": "Information Technology",
+        "studyType": "Bachelor",
+        "startDate": "2011-06-01",
+        "endDate": "2014-01-01",
+        "score": "4.0",
+        "courses": ["DB1101 - Basic SQL", "CS2011 - Java Introduction"]
+      }
+    ],
+    "awards": [
+      {
+        "title": "Digital Compression Pioneer Award",
+        "date": "2014-11-01",
+        "awarder": "Techcrunch",
+        "summary": "There is no spoon."
+      }
+    ],
+    "publications": [
+      {
+        "name": "Video compression for 3d media",
+        "publisher": "Hooli",
+        "releaseDate": "2014-10-01",
+        "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
+        "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Web Development",
+        "level": "Master",
+        "keywords": ["HTML", "CSS", "Javascript"]
+      },
+      {
+        "name": "Compression",
+        "level": "Master",
+        "keywords": ["Mpeg", "MP4", "GIF"]
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Native speaker"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Wildlife",
+        "keywords": ["Ferrets", "Unicorns"]
+      }
+    ],
+    "references": [
+      {
+        "name": "Erlich Bachman",
+        "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+      }
+    ],
+    "projects": [
+      {
+        "name": "Miss Direction",
+        "description": "A mapping engine that misguides you",
+        "highlights": [
+          "Won award at AIHacks 2016",
+          "Built by all women team of newbie programmers",
+          "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+        ],
+        "keywords": ["GoogleMaps", "Chrome Extension", "Javascript"],
+        "startDate": "2016-08-24",
+        "endDate": "2016-08-24",
+        "roles": ["Team lead", "Designer"],
+        "entity": "Smoogle",
+        "type": "application"
+      }
+    ],
+    "meta": {
+      "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+      "version": "v1.0.0",
+      "lastModified": "2017-12-24T15:53:00"
+    }
+  }
+  
