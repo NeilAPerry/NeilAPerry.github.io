@@ -60,7 +60,7 @@ title = 'Neil Perry'
   [[menu.main]]
     identifier = "about"
     name = "About"
-    url = "/about"
+    url = "/"
     weight = 30
   [[menu.main]]
     identifier = "research"
