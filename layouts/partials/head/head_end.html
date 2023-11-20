@@ -82,14 +82,52 @@
     .menu--horizontal .mobile-profile-pic {
         display: none;
     }
-    
+
     /* Style for the mobile profile picture */
     .mobile-profile-pic {
-        display: block; /* Show by default, will be hidden in desktop menu by above rule */
-        width: 50%; /* Adjust the size as needed */
-        height: auto; /* Adjust the size as needed */
-        margin: 10px auto; /* Center the image with margin */
-        border-radius: 50%; /* Optional: makes the image circular */
+        display: block;
+        /* Show by default, will be hidden in desktop menu by above rule */
+        width: 50%;
+        /* Adjust the size as needed */
+        height: auto;
+        /* Adjust the size as needed */
+        margin: 10px auto;
+        /* Center the image with margin */
+        border-radius: 50%;
+        /* Optional: makes the image circular */
     }
-    </style>
-    
+</style>
+
+<!-- Home Page mobile only profile picture -->
+<style>
+    /* Hide the image by default (for desktop) */
+    .mobile-only-image {
+        display: none;
+    }
+
+    /* Show the image on mobile screens */
+    @media screen and (max-width: 768px) {
+        .mobile-only-image {
+            display: block;
+            /* Show the image */
+            width: 40%;
+            /* Adjust the width as needed */
+            height: auto;
+            /* Maintain aspect ratio */
+            margin: 10px auto;
+            /* Center the image with margin */
+            border-radius: 50%;
+            /* Optional: makes the image circular */
+
+            /* New styles to fix the outline issue */
+            border: none !important;
+            /* Removes any border */
+            outline: none;
+            /* Removes any outline */
+            box-shadow: none;
+            /* Removes any box shadow */
+            background: transparent;
+            /* Ensures background is transparent */
+        }
+    }
+</style>
