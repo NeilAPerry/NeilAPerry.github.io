@@ -1,6 +1,5 @@
 ---
 title: "About Me"
-url: /
 draft: false
 ---
 
