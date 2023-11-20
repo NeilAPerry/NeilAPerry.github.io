@@ -82,6 +82,8 @@ title = 'Neil Perry'
 
 [params]
   author = "Neil Perry"
+  subtitle = ""
+  description = "Neil Perry's Personal site"
 
   [params.logo]
     text = "perry"
