@@ -4,10 +4,10 @@
       "name": "Neil Perry",
       "label": "Researcher",
       "image": "/images/headshot2_cropped.webp",
-      "email": "naperry@stanford.edu",
-      "summary": "I am a PhD candidate at Stanford University and I received a BA in Computer Science, Economics, Mathematics, and Liberal Arts from the University of Wisconsin-Madison. My research interests lie in applying cryptography to societal problems. Additionally, I advise politicians and members of the US government on issues related to tech policy and national security.",
+      "email": "np7904@princeton.edu",
+      "summary": "I received my PhD at Stanford University and my BA in Computer Science, Economics, Mathematics, and Liberal Arts from the University of Wisconsin-Madison. My research interests lie in applying cryptography to societal problems. Additionally, I advise politicians and members of the US government on issues related to tech policy and national security.",
       "location": {
-        "city": "Milwaukee/Palo Alto"
+        "city": "Milwaukee"
       },
       "profiles": [
         {
@@ -38,7 +38,8 @@
             "position": "PhD Candidate",
             "description": "",
             "summary": "",
-            "startDate": "2019-09"
+            "startDate": "2019-09",
+            "endDate": "2025-09"
         },
         {
             "name": "Wisconsin State Assembly",
