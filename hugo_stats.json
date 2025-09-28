@@ -87,9 +87,10 @@
       "theme__toggle"
     ],
     "ids": [
-      "democracy-anonymous-comm--censorship",
+      "ai-security",
+      "anonymous-communication--censorship",
+      "arms-control",
       "menu",
-      "national-security-wmds--code-security",
       "prism-dark",
       "prism-light",
       "search__suggestions",

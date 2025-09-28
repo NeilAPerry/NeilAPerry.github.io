@@ -14,6 +14,8 @@ Here you can find classes I've taught and talks I've given. This site is current
 
 
 ## Talks
+{{< talk title="Cryptography and Security's Role in a World at Risk: Securing Society's Future" location="Stanford University 2025" slidesUrl="" >}}
+
 {{< talk title="Applying Cryptography to National Security" location="James Martin Center for Nonproliferation Studies, Middlebury Institute of International Studies" slidesUrl="https://nonproliferation.org/applying-cryptography-to-national-security/" >}}
 
 {{< talk title="Do Programmers Write More Insecure Code with AI Assistants? (Short Version)" location="Stanford Security Forum (Palo Alto 2023), AISoLA (Crete 2023)" slidesUrl="/presentations/AISoLA_23.pdf" >}}
